@@ -1,12 +1,12 @@
 const axios = require("axios");
 
 module.exports.config = {
-    name: "misha",
+    name: "Baby",
     version: "1.0.9",
     hasPermssion: 0,
     credits: "Mirrykal)",
     description: "Gemini AI - Cute Girlfriend Style",
-    commandCategory: "Babu",
+    commandCategory: "Admin",
     usages: "[ask/on/off]",
     cooldowns: 2,
     dependencies: {
