@@ -1,6 +1,6 @@
 const axios = require("axios");
 module.exports.config = {
-    name: "ai",
+    name: "Babu",
     version: "1.0.0",
     hasPermssion: 0,
     credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
@@ -29,7 +29,7 @@ module.exports.run = async function ({ api, event, args, Users }) {
 
     api.setMessageReaction("⌛", event.messageID, () => { }, true);
 
-    const res = await axios.get(`https://blackboxai-tlh1.onrender.com/api/blackboxai?query=${encodeURIComponent(query)}`);
+    const res = await axios.get(`https://gemini-h9hw.onrender.com/api/blackboxai?query=${encodeURIComponent(query)}`);
 
     const data = res.data.priyansh;
 
