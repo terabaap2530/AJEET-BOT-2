@@ -5,7 +5,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
     description: "BlackBoxAi by Priyansh",
-    commandCategory: "ai",
+    commandCategory: "Baby",
     usages: "[ask]",
     cooldowns: 2,
     dependecies: {
