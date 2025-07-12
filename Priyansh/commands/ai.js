@@ -1,11 +1,11 @@
 const axios = require("axios");
 module.exports.config = {
-    name: "Babu",
+    name: "Baby",
     version: "1.0.0",
     hasPermssion: 0,
     credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
     description: "BlackBoxAi by Priyansh",
-    commandCategory: "Baby",
+    commandCategory: "Admin",
     usages: "[ask]",
     cooldowns: 2,
     dependecies: {
