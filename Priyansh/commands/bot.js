@@ -5,7 +5,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Fixed By Ajeet",
   description: "goibot",
-  commandCategory: "Noprefix",
+  commandCategory: "Admin",
   usages: "noprefix",
   cooldowns: 5,
 };
